@@ -8,6 +8,7 @@ Esse repositório contém um arquivo containerfile com instruções para criar u
 *Copia o pacote do Packet Tracer para dentro do diretório cisco_packet_tracer_distrobox.*
 #### Cria a imagem de container
 ```
+cd packet_tracer_distrobox
 podman build -t packet_tracer_distrobox .
 ```
 #### Crie agora o container Toolbx com base na imagem criada
