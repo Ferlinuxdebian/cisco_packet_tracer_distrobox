@@ -11,7 +11,7 @@ Esse repositório contém um arquivo containerfile com instruções para criar u
 cd packet_tracer_distrobox
 podman build -t packet_tracer_distrobox .
 ```
-#### Crie agora o container Toolbx com base na imagem criada
+#### Crie agora o container distrobox com base na imagem criada
 ```
 distrobox create --image packet_tracer_distrobox --name packet_tracer_container
 ```
